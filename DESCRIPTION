@@ -2,10 +2,19 @@ Package: zerotradeflow
 Type: Package
 Title: Zero flow of bilateral trade for the COMTRADE database
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
+Authors@R: person("Alexandre",
+                  "Loures",
+                  comment = c(ORCID = "https://orcid.org/0000-0002-1288-0135"),
+                  role = c("aut", "cre"),
+                  email = "alexandre.loures@protonmail.com")
+Maintainer: Alexandre Loures <alexandre.loures@protonmail.com>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+License: MIT + file LICENSE
 Encoding: UTF-8
+Language: English
 LazyData: true
+URL: https://github.com/AlexandreLoures/zerotradeflow
+BugReports: https://github.com/AlexandreLoures/zerotradeflow/issues
+RoxygenNote: 7.1.2
+Repository: CRAN

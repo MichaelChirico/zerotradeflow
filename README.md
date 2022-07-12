@@ -11,8 +11,8 @@
 [![License:
 Mit](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Github
-commit](https://img.shields.io/github/last-commit/AlexandreLoures/zerotradeflow)](https://github.com/AlexandreLoures/zerotradeflow/commit)
-[![](http://cranlogs.r-pkg.org/badges/grand-total/zerotradeflow?color=blue)](https://cran.r-project.org/package=zerotradeflow)
+commit](https://img.shields.io/github/last-commit/AlexandreLoures/zerotradeflow)](https://github.com/AlexandreLoures/zerotradeflow/commit/main)
+[![](https://cranlogs.r-pkg.org/badges/grand-total/zerotradeflow?color=blue)](https://cran.r-project.org/package=zerotradeflow)
 <!-- badges: end -->
 
 `zerotradeflow` is a system for creating the bilateral trade flow

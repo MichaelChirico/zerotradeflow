@@ -1,6 +1,6 @@
 #' A sample of the UN Comtrade Database.
 #'
-#' In the following example the original base (`comtrade.rda`) has only 229,585
+#' In the following example the original base (comtrade.rda) has only 229,585
 #' information on positive bilateral trade flow (greater than zero). However,
 #' after expanding this base to also present the bilateral trade flow equal to
 #' zero, the new base will have 1,255,892 observations (both positive and zero
@@ -8,7 +8,7 @@
 #' years, the number of exporting and importing countries and the items present
 #' in the base. Since the distinct number of exporting and importing countries
 #' has an important determining factor in the expansion of the base (see the
-#' examples with the `distinct.rda` and `same.rda` bases).
+#' examples with the distinct.rda and same.rda bases).
 #'
 #' @description A sample of the UN Comtrade Database prepared by the United
 #' Nations Department of Statistics with official international trade
@@ -27,7 +27,7 @@
 #' * comercio - Numeric. Dollar value of exports.
 #'
 #' @return a dataframe object contains the five variables passed as parameters
-#' to the `get_zerotradeflow` function (year, exporter, importer, item, trade)
+#' to the get_zerotradeflow() function (year, exporter, importer, item, trade)
 #' including the bilateral trade flow equal to zero.
 #'
 #' @examples
@@ -59,12 +59,12 @@
 #' * comercio - Numeric. Dollar value of exports.
 #'
 #' @return a dataframe object contains the five variables passed as parameters
-#' to the `get_zerotradeflow` function (year, exporter, importer, item, trade)
+#' to the get_zerotradeflow() function (year, exporter, importer, item, trade)
 #' including the bilateral trade flow equal to zero.
 #'
 #' @examples
 #'
-#' # Note that the `distinct.rda` base has six different countries (three
+#' # Note that the distinct.rda base has six different countries (three
 #' # exporters and three importers). Thus, when expanding this base, we have 81
 #' # observations as a result.
 #'
@@ -86,7 +86,7 @@
 #' expansion.
 #' @format A dataframe object.
 #' @details A dataset cosisting of three years, three exporting countries,
-#' three importing countries, three Harmonized System code and value of imports
+#' three importing countries, three Harmonized System code and value of exports
 #' (all data is fictitious). The data includes the following fields:
 #'
 #' * ano - Numeric. Year in which exports were carried out.
@@ -96,12 +96,12 @@
 #' * comercio - Numeric. Dollar value of exports.
 #'
 #' @return a dataframe object contains the five variables passed as parameters
-#' to the `get_zerotradeflow` function (year, exporter, importer, item, trade)
+#' to the get_zerotradeflow() function (year, exporter, importer, item, trade)
 #' including the bilateral trade flow equal to zero.
 #'
 #' @examples
 #'
-#' # On the other hand, in the `same.rda` base, Brazil (BRA) appears as both an
+#' # On the other hand, in the same.rda base, Brazil (BRA) appears as both an
 #' # exporter and an importer and, in this case, when expanding the base, there
 #' # are 72 observations as a result.
 #'
@@ -118,14 +118,18 @@
 
 #' Expand the dataset from the passed database as parameters.
 #'
-#' The `zerotradeflow` package allows generating the bilateral trade flow equal
+#' The zerotradeflow package allows generating the bilateral trade flow equal
 #' to zero of each country pair in each year present in the database passed in
-#' `data parameter`. Since, by default, data on bilateral trade flows of countries
-#' only report positive trade flows (flows greater than zero).
+#' data parameter. Since, by default, data on bilateral trade flows of countries
+#' only report positive trade flows (flows greater than zero). Some references
+#' to Gravitational Models are:
+#'
+#' * Figueiredo and Loures (2016) <https://doi.org/10.5935/0034-7140.20160015>
+#' * Yotov, Piermartini, Monteiro and Larch (2016) <https://vi.unctad.org/tpa/web/docs/vol2/book.pdf>
 #'
 #' @description Creates zero bilateral trade flow for a given pair of countries.
 #' @return a dataframe object contains the five variables passed as parameters
-#' to the `get_zerotradeflow` function (year, exporter, importer, item, trade)
+#' to the get_zerotradeflow() function (year, exporter, importer, item, trade)
 #' including the bilateral trade flow equal to zero.
 #' @details Function to expand the database with the bilateral trade flow equal
 #' to zero, passing the following parameters:

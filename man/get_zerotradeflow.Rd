@@ -36,17 +36,21 @@ about the value of exports/imports}
 }
 \value{
 a dataframe object contains the five variables passed as parameters
-to the `get_zerotradeflow` function (year, exporter, importer, item, trade)
+to the get_zerotradeflow() function (year, exporter, importer, item, trade)
 including the bilateral trade flow equal to zero.
 }
 \description{
 Creates zero bilateral trade flow for a given pair of countries.
 }
 \details{
-The `zerotradeflow` package allows generating the bilateral trade flow equal
+The zerotradeflow package allows generating the bilateral trade flow equal
 to zero of each country pair in each year present in the database passed in
-`data parameter`. Since, by default, data on bilateral trade flows of countries
-only report positive trade flows (flows greater than zero).
+data parameter. Since, by default, data on bilateral trade flows of countries
+only report positive trade flows (flows greater than zero). Some references
+to Gravitational Models are:
+
+* Figueiredo and Loures (2016) <https://doi.org/10.5935/0034-7140.20160015>
+* Yotov, Piermartini, Monteiro and Larch (2016) <https://vi.unctad.org/tpa/web/docs/vol2/book.pdf>
 
 Function to expand the database with the bilateral trade flow equal
 to zero, passing the following parameters:

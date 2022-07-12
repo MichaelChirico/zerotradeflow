@@ -15,7 +15,7 @@ comtrade
 }
 \value{
 a dataframe object contains the five variables passed as parameters
-to the `get_zerotradeflow` function (year, exporter, importer, item, trade)
+to the get_zerotradeflow() function (year, exporter, importer, item, trade)
 including the bilateral trade flow equal to zero.
 }
 \description{
@@ -24,7 +24,7 @@ Nations Department of Statistics with official international trade
 information.
 }
 \details{
-In the following example the original base (`comtrade.rda`) has only 229,585
+In the following example the original base (comtrade.rda) has only 229,585
 information on positive bilateral trade flow (greater than zero). However,
 after expanding this base to also present the bilateral trade flow equal to
 zero, the new base will have 1,255,892 observations (both positive and zero
@@ -32,7 +32,7 @@ flow). Note that the final size of the base will depend on the number of
 years, the number of exporting and importing countries and the items present
 in the base. Since the distinct number of exporting and importing countries
 has an important determining factor in the expansion of the base (see the
-examples with the `distinct.rda` and `same.rda` bases).
+examples with the distinct.rda and same.rda bases).
 
 A dataset consisting of two years, 24 exporting countries, 24
 importing countries, 1,241 Harmonized System codes and the value of exports

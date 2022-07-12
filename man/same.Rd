@@ -13,7 +13,7 @@ same
 }
 \value{
 a dataframe object contains the five variables passed as parameters
-to the `get_zerotradeflow` function (year, exporter, importer, item, trade)
+to the get_zerotradeflow() function (year, exporter, importer, item, trade)
 including the bilateral trade flow equal to zero.
 }
 \description{
@@ -22,7 +22,7 @@ expansion.
 }
 \details{
 A dataset cosisting of three years, three exporting countries,
-three importing countries, three Harmonized System code and value of imports
+three importing countries, three Harmonized System code and value of exports
 (all data is fictitious). The data includes the following fields:
 
 * ano - Numeric. Year in which exports were carried out.
@@ -33,7 +33,7 @@ three importing countries, three Harmonized System code and value of imports
 }
 \examples{
 
-# On the other hand, in the `same.rda` base, Brazil (BRA) appears as both an
+# On the other hand, in the same.rda base, Brazil (BRA) appears as both an
 # exporter and an importer and, in this case, when expanding the base, there
 # are 72 observations as a result.
 

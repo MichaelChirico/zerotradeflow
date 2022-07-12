@@ -12,7 +12,7 @@ distinct
 }
 \value{
 a dataframe object contains the five variables passed as parameters
-to the `get_zerotradeflow` function (year, exporter, importer, item, trade)
+to the get_zerotradeflow() function (year, exporter, importer, item, trade)
 including the bilateral trade flow equal to zero.
 }
 \description{
@@ -32,7 +32,7 @@ exports (all data is fictitious). The data includes the following fields:
 }
 \examples{
 
-# Note that the `distinct.rda` base has six different countries (three
+# Note that the distinct.rda base has six different countries (three
 # exporters and three importers). Thus, when expanding this base, we have 81
 # observations as a result.
 

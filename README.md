@@ -61,7 +61,8 @@ data, year, exporter, importer, designation and coding and flow value.
 
 Figueiredo and Loures (2016) **O efeito do Mercosul sobre a
 comercialização de novos produtos**.
-<https://doi.org/10.5935/0034-7140.20160015>
+<a href="https://doi.org/10.5935/0034-7140.20160015"
+target="_blank">https://doi.org/10.5935/0034-7140.20160015</a>
 
 <!--
 [![](http://cranlogs.r-pkg.org/badges/grand-total/covid19brazil?color=green)](https://cran.r-project.org/package=covid19brazil) 

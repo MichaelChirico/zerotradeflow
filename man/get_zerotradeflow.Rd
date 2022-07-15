@@ -46,11 +46,7 @@ Creates zero bilateral trade flow for a given pair of countries.
 The zerotradeflow package allows generating the bilateral trade flow equal
 to zero of each country pair in each year present in the database passed in
 data parameter. Since, by default, data on bilateral trade flows of countries
-only report positive trade flows (flows greater than zero). Some references
-to Gravitational Models are:
-
-* Figueiredo and Loures (2016) <https://doi.org/10.5935/0034-7140.20160015>
-* Yotov, Piermartini, Monteiro and Larch (2016) <https://vi.unctad.org/tpa/web/docs/vol2/book.pdf>
+only report positive trade flows (flows greater than zero).
 
 Function to expand the database with the bilateral trade flow equal
 to zero, passing the following parameters:

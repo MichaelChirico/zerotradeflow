@@ -37,7 +37,7 @@ exports (all data is fictitious). The data includes the following fields:
 # observations as a result.
 
 
-\dontrun{
+\donttest{
 
 distinctflow <- get_zerotradeflow(distinct, ano, ido, idd, HS4, comercio)
 

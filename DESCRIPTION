@@ -1,6 +1,6 @@
 Package: zerotradeflow
 Type: Package
-Title: An implementation for the Gravitational Models of Trade
+Title: An Implementation for the Gravitational Models of Trade
 Version: 0.1.0
 Authors@R: person("Alexandre",
                   "Loures",
@@ -9,11 +9,13 @@ Authors@R: person("Alexandre",
                   email = "alexandre.loures@protonmail.com")
 Maintainer: Alexandre Loures <alexandre.loures@protonmail.com>
 Description: A system for creating the bilateral trade flow between a country
-    pair equal to zero. You provide the data, tell `get_zerotradeflow` which 
+    pair equal to zero. You provide the data, tell get_zerotradeflow() which 
     variables are of interest and it expands the base by creating the bilateral
     zero trade flow. The bases on the flow of trade between countries only report
     positive trade (greater than zero), however, for some analyzes of gravitacional
-    models, data on zero flow is also necessary.
+    models, data on zero flow is also necessary. Some examples for Gravity Model:
+    Figueiredo and Loures (2016) <doi:10.5935/0034-7140.20160015> and
+    Yotov, Piermartini, Monteiro and Larch <https://vi.unctad.org/tpa/web/docs/vol2/book.pdf>.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Language: English
@@ -25,7 +27,9 @@ Imports:
   tidyverse,
   rlang,
   dplyr,
-  tidyr
+  tidyr,
+  purrr,
+  cli
 Suggests: testthat (>= 2.1.0)
 URL: https://github.com/AlexandreLoures/zerotradeflow
 BugReports: https://github.com/AlexandreLoures/zerotradeflow/issues

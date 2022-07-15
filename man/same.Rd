@@ -38,7 +38,7 @@ three importing countries, three Harmonized System code and value of exports
 # are 72 observations as a result.
 
 
-\dontrun{
+\donttest{
 
 sameflow <- get_zerotradeflow(same, ano, ido, idd, HS4, comercio)
 

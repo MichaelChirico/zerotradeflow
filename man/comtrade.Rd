@@ -47,7 +47,7 @@ in dollars. The data includes the following fields:
 \examples{
 
 
-\dontrun{
+\donttest{
 
 zeroflow <- get_zerotradeflow(comtrade, ano, ido, idd, HS4, comercio)
 

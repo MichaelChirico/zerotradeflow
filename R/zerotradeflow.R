@@ -20,11 +20,15 @@
 #' importing countries, 1,241 Harmonized System codes and the value of exports
 #' in dollars. The data includes the following fields:
 #'
-#' * ano - Numeric. Year in which exports were carried out.
-#' * ido - String. ISO code corresponding to the exporting country.
-#' * idd - String. ISO code corresponding to the importing country.
-#' * HS4 - Numeric. HS4 code corresponding to the merchandise sold.
-#' * comercio - Numeric. Dollar value of exports.
+#' * ano - Numeric. Year in which exports were carried out
+#'
+#' * ido - String. ISO code corresponding to the exporting country
+#'
+#' * idd - String. ISO code corresponding to the importing country
+#'
+#' * HS4 - Numeric. HS4 code corresponding to the merchandise sold
+#'
+#' * comercio - Numeric. Dollar value of exports
 #'
 #' @return a dataframe object contains the five variables passed as parameters
 #' to the get_zerotradeflow() function (year, exporter, importer, item, trade)
@@ -52,11 +56,15 @@
 #' three importing countries, three Harmonized System code and value of
 #' exports (all data is fictitious). The data includes the following fields:
 #'
-#' * ano - Numeric. Year in which exports were carried out.
-#' * ido - String. ISO code corresponding to the exporting country.
-#' * idd - String. ISO code corresponding to the importign country.
-#' * HS4 - Numeric. HS4 code corresponding to the merchandise sold.
-#' * comercio - Numeric. Dollar value of exports.
+#' * ano - Numeric. Year in which exports were carried out
+#'
+#' * ido - String. ISO code corresponding to the exporting country
+#'
+#' * idd - String. ISO code corresponding to the importign country
+#'
+#' * HS4 - Numeric. HS4 code corresponding to the merchandise sold
+#'
+#' * comercio - Numeric. Dollar value of exports
 #'
 #' @return a dataframe object contains the five variables passed as parameters
 #' to the get_zerotradeflow() function (year, exporter, importer, item, trade)
@@ -89,11 +97,15 @@
 #' three importing countries, three Harmonized System code and value of exports
 #' (all data is fictitious). The data includes the following fields:
 #'
-#' * ano - Numeric. Year in which exports were carried out.
-#' * ido - String. ISO code corresponding to the exporting country.
-#' * idd - String. ISO code corresponding to the importing country.
-#' * HS4 - Numeric. HS4 code corresponding to the merchandise sold.
-#' * comercio - Numeric. Dollar value of exports.
+#' * ano - Numeric. Year in which exports were carried out
+#'
+#' * ido - String. ISO code corresponding to the exporting country
+#'
+#' * idd - String. ISO code corresponding to the importing country
+#'
+#' * HS4 - Numeric. HS4 code corresponding to the merchandise sold
+#'
+#' * comercio - Numeric. Dollar value of exports
 #'
 #' @return a dataframe object contains the five variables passed as parameters
 #' to the get_zerotradeflow() function (year, exporter, importer, item, trade)

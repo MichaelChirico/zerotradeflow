@@ -171,8 +171,6 @@
 #' @importFrom dplyr left_join
 #' @importFrom tidyr replace_na
 #' @importFrom rlang :=
-#' @importFrom purrr lift_vd
-#' @importFrom cli cli_abort
 #'
 #' @export
 

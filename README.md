@@ -59,10 +59,15 @@ data, year, exporter, importer, designation and coding and flow value.
 
 ## Reference
 
-Figueiredo and Loures (2016) **O efeito do Mercosul sobre a
-comercialização de novos produtos**.
-<a href="https://doi.org/10.5935/0034-7140.20160015"
-target="_blank">https://doi.org/10.5935/0034-7140.20160015</a>
+-   Loures and Figueiredo (2019). **Mercosul e o efeito *spillover* na
+    criação de comércio**. doi:
+    <a href="https://doi.org/10.11606/1980-5330/ea150797"
+    target="_blank">10.11606/1980-5330/ea150797</a>
+
+-   Figueiredo and Loures (2016). **O efeito do Mercosul sobre a
+    comercialização de novos produtos**. doi:
+    <a href="https://doi.org/10.5935/0034-7140.20160015"
+    target="_blank">10.5935/0034-7140.20160015</a>
 
 <!--
 [![](http://cranlogs.r-pkg.org/badges/grand-total/covid19brazil?color=green)](https://cran.r-project.org/package=covid19brazil) 

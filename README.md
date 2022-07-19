@@ -61,7 +61,7 @@ data, year, exporter, importer, designation and coding and flow value.
 
 -   Loures and Figueiredo (2019). **Mercosul e o efeito *spillover* na
     criação de comércio**. doi:
-    <a href="https://doi.org/10.11606/1980-5330/ea150797" target="_blank" rel="noopener">10.11606/1980-5330/ea150797</a>
+    <a href="https://doi.org/10.11606/1980-5330/ea150797" target="_blank" rel="noopener noreferrer">10.11606/1980-5330/ea150797</a>
 
 -   Figueiredo and Loures (2016). **O efeito do Mercosul sobre a
     comercialização de novos produtos**. doi:

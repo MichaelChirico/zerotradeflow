@@ -38,11 +38,15 @@ A dataset consisting of two years, 24 exporting countries, 24
 importing countries, 1,241 Harmonized System codes and the value of exports
 in dollars. The data includes the following fields:
 
-* ano - Numeric. Year in which exports were carried out.
-* ido - String. ISO code corresponding to the exporting country.
-* idd - String. ISO code corresponding to the importing country.
-* HS4 - Numeric. HS4 code corresponding to the merchandise sold.
-* comercio - Numeric. Dollar value of exports.
+* ano - Numeric. Year in which exports were carried out
+
+* ido - String. ISO code corresponding to the exporting country
+
+* idd - String. ISO code corresponding to the importing country
+
+* HS4 - Numeric. HS4 code corresponding to the merchandise sold
+
+* comercio - Numeric. Dollar value of exports
 }
 \examples{
 

@@ -171,10 +171,18 @@
 #' @importFrom dplyr left_join
 #' @importFrom tidyr replace_na
 #' @importFrom rlang :=
+#' @importFrom purrr lift_vd
+#' @importFrom cli cli_abort
 #'
 #' @export
 
 get_zerotradeflow <- function (data, year, exporter, importer, item, trade) {
+
+  arguments.length <- nargs()
+  n <- purrr::lift_vd(length)("data", "year", "exporter", "importer", "item", "trade")
+  if (n > arguments.length) {
+    cli::cli_abort("Insufficient arguments passed to the funciton. {n} needed but only {arguments.length} provided.")
+  }
 
   df <- data %>% tidyr::expand ({{year}}, {{exporter}}, {{importer}}, {{item}})
 

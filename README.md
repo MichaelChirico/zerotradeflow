@@ -6,7 +6,7 @@
 <!-- badges: start -->
 
 [![build](https://github.com/AlexandreLoures/zerotradeflow/actions/workflows/main.yml/badge.svg)](https://github.com/AlexandreLoures/zerotradeflow/actions)
-[![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/zerotradeflows)](https://cran.r-project.org/package=zerotradeflow)
+[![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/zerotradeflow)](https://cran.r-project.org/package=zerotradeflow)
 [![lifecycle](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html)
 [![License:
 Mit](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)

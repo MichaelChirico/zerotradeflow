@@ -55,7 +55,66 @@ data, year, exporter, importer, designation and coding and flow value.
 
 # An application for Gravitational Models of Trade
 
+The following methodological procedures are adopted: 1) use of a
+database with a high level of disaggregation allowing capturing the
+commercialization of new products; 2) it is assumed as returning a
+binary variable in which one represents a positive trade flow while zero
+characterizes the absence of trade or data censorship; 3) a treatment
+group composed of the full members of MERCOSUR (Brazil, Argentina,
+Paraguay, Uruguay and Venezuela) and a control group formed by Bolivia,
+Chile and Peru and 4) the use of the Logit estimator with
+heteroscedasticity robust errors.
+
+The data used in this analysis were extracted from the *Base pour
+l’Analyse du Commerce International* (BACI), from the *Center D’Estudes
+Prospectives Et D’Informations Internationales* (CEPII). This dataset is
+the basis on international trade that covers as many countries as
+possible and whose aggregation classification is called the four-digit
+Harmonized System (HS4), replacing the Standard Classification of
+International Trade (SITC) of four digits. The Harmonized System,
+created in 1988, is characterized as an international classification of
+goods based on codes and their respective descriptions whose objective
+is to promote the improvement of international trade, allowing
+comparisons and statistical analysis between countries as well as
+facilitating international negotiations (through standardization of
+information).
+
+For simplicity and standardization, trade flows between members and
+non-members[^1] (control group: Bolivia, Chile and Peru) will be
+represented as follows: SUR11, SUR10, SUR00 and SUR01 where the first
+numeral represents the country of origin while the according to
+destination. Thus, SUR11 means that the exporter is a member of MERCOSUR
+as well as the importer, SUR10 the exporter is a member of MERCOSUR and
+in turn the importer is a non-member, SUR00 both the exporter and the
+importer are non-members of the MERCOSUR and SUR01 the exporter is a
+non-member and the importer is a member of MERCOSUR.
+
 <img src="man/figures/zeros.png" width="100%" />
+
+It can be seen from the figure above that the “zeros” of the commercial
+matrices of all trade flows (SUR11, SUR10, SUR01 and SUR00) have shown a
+downward trend since the late 1980s, which may be related to the
+globalization process , however the behavior of the variable SUR11 is
+different from the others. After the creation of MERCOSUR, what can be
+seen is a strong reduction in the number of “zeros”, mainly from 1992
+onwards, resulting in a 30% drop in 1995. The behavior of the following
+periods is marked by some “peaks” and “valleys”. ” reaching in 2005 the
+highest level of reduction (33%). The control group for this variable,
+SUR00, also showed a downward trend in the period, however, it was more
+smooth (although in recent years it has been greater than that of
+MERCOSUR).
+
+As a robustness test, the behavior of the variable SUR01 was analyzed,
+verifying, in the figure above, that, like the others, this curve showed
+a downward trend, but it was the smoothest movement of all the curves,
+demonstrating that it was MERCOSUR and not other reasons that caused the
+reduction in the number of “zeros”. Regarding the variable SUR10, it is
+noted that MERCOSUR also boosted exports from members to non-members.
+
+It is important to note that a portion of the “zeros” in BACI are
+censored data, as transactions less than US$ 1,000 are not accounted for
+in international trade and, therefore, the “zeros” can represent both
+the absence of trade as well as data censorship. .
 
 ## Reference
 
@@ -83,3 +142,6 @@ data, year, exporter, importer, designation and coding and flow value.
 
 [![](http://cranlogs.r-pkg.org/badges/last-month/covid19italy?color=green)](https://cran.r-project.org/package=covid19italy)
 -->
+
+[^1]: Non-members are represented by the control group, ie, Bolivia,
+    Chile, and Peru.

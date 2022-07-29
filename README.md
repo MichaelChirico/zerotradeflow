@@ -55,7 +55,7 @@ data, year, exporter, importer, designation and coding and flow value.
 
 # An application for Gravitational Models of Trade
 
-<img src="figures/zeros.png" width="100%" />
+<img src="man/figures/zeros.png" width="100%" />
 
 ## Reference
 

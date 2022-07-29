@@ -1,7 +1,7 @@
 Package: zerotradeflow
 Type: Package
 Title: An Implementation for the Gravitational Models of Trade
-Version: 0.1.1
+Version: 0.1.0
 Authors@R: person("Alexandre",
                   "Loures",
                   comment = c(ORCID = "https://orcid.org/0000-0002-1288-0135"),

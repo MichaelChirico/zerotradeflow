@@ -80,14 +80,13 @@ facilitating international negotiations (through standardization of
 information).
 
 For simplicity and standardization, trade flows between members and
-non-members[^1] (control group: Bolivia, Chile and Peru) will be
-represented as follows: SUR11, SUR10, SUR00 and SUR01 where the first
-numeral represents the country of origin while the according to
-destination. Thus, SUR11 means that the exporter is a member of MERCOSUR
-as well as the importer, SUR10 the exporter is a member of MERCOSUR and
-in turn the importer is a non-member, SUR00 both the exporter and the
-importer are non-members of the MERCOSUR and SUR01 the exporter is a
-non-member and the importer is a member of MERCOSUR.
+non-members[^1] will be represented as follows: SUR11, SUR10, SUR00 and
+SUR01 where the first numeral represents the country of origin while the
+according to destination. Thus, SUR11 means that the exporter is a
+member of MERCOSUR as well as the importer, SUR10 the exporter is a
+member of MERCOSUR and in turn the importer is a non-member, SUR00 both
+the exporter and the importer are non-members of the MERCOSUR and SUR01
+the exporter is a non-member and the importer is a member of MERCOSUR.
 
 <img src="man/figures/zeros.png" width="100%" />
 

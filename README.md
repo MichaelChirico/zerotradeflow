@@ -55,6 +55,15 @@ data, year, exporter, importer, designation and coding and flow value.
 
 # An application for Gravitational Models of Trade
 
+First, like COMTRADE, BACI does not record the categories whose trade
+flow was equal to “zero”, which are obtained through the expansion of
+initial data (using the `zerotradeflow` package). Thus, for the eight
+countries in the sample there were initially 453,464 observations on
+bilateral trade and after expansion the number of observations totaled
+1,527,680, ie 70.3% of the observations are “zeros”. With the
+replacement of the TRMS with the variant and invariant dummies in time,
+the model will total 355 explanatory variables.
+
 The following methodological procedures are adopted: 1) use of a
 database with a high level of disaggregation allowing capturing the
 commercialization of new products; 2) it is assumed as returning a

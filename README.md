@@ -122,7 +122,7 @@ noted that MERCOSUR also boosted exports from members to non-members.
 It is important to note that a portion of the “zeros” in BACI are
 censored data, as transactions less than US$ 1,000 are not accounted for
 in international trade and, therefore, the “zeros” can represent both
-the absence of trade as well as data censorship. .
+the absence of trade as well as data censorship.
 
 ## Reference
 

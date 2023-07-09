@@ -15,7 +15,7 @@ out.width = "100%"
 )
 ```
 
-# zerotradeflow
+# zerotradeflow <a href="https://rodriguesloures.com/files/html/zerotradeflow/index.html"><img src="man/figures/logo.png" align="right" height="138" alt="usethis website" /></a>
 
 <!-- badges: start -->
 

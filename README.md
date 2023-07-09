@@ -1,7 +1,7 @@
 
 <!-- README.md is generated form README.Rmd. Please edit that file -->
 
-# zerotradeflow
+# zerotradeflow <a href="https://rodriguesloures.com/files/html/zerotradeflow/index.html"><img src="man/figures/logo.png" align="right" height="138" alt="usethis website" /></a>
 
 <!-- badges: start -->
 
@@ -120,35 +120,29 @@ reduction in the number of “zeros”. Regarding the variable SUR10, it is
 noted that MERCOSUR also boosted exports from members to non-members.
 
 It is important to note that a portion of the “zeros” in BACI are
-censored data, as transactions less than US$ 1,000 are not accounted for
-in international trade and, therefore, the “zeros” can represent both
-the absence of trade as well as data censorship.
+censored data, as transactions less than US\$ 1,000 are not accounted
+for in international trade and, therefore, the “zeros” can represent
+both the absence of trade as well as data censorship.
 
 ## Reference
 
--   Loures and Figueiredo (2019). **Mercosul e o efeito *spillover* na
-    criação de comércio**. doi:
-    <a href="https://doi.org/10.11606/1980-5330/ea150797" target="_blank" rel="noopener noreferrer">10.11606/1980-5330/ea150797</a>
+- Loures and Figueiredo (2019). **Mercosul e o efeito *spillover* na
+  criação de comércio**. doi:
+  <a href="https://doi.org/10.11606/1980-5330/ea150797" target="_blank" rel="noopener noreferrer">10.11606/1980-5330/ea150797</a>
 
--   Figueiredo and Loures (2016). **O efeito do Mercosul sobre a
-    comercialização de novos produtos**. doi:
-    <a href="https://doi.org/10.5935/0034-7140.20160015"
-    target="_blank">10.5935/0034-7140.20160015</a>
+- Figueiredo and Loures (2016). **O efeito do Mercosul sobre a
+  comercialização de novos produtos**. doi:
+  <a href="https://doi.org/10.5935/0034-7140.20160015"
+  target="_blank">10.5935/0034-7140.20160015</a>
 
 <!--
 [![](http://cranlogs.r-pkg.org/badges/grand-total/covid19brazil?color=green)](https://cran.r-project.org/package=covid19brazil) 
- 
-[![](http://cranlogs.r-pkg.org/badges/grand-total/covid19brazil?color=blue)](https://cran.r-project.org/package=covid19brazil)
-
-[![](http://cranlogs.r-pkg.org/badges/last-month/covid19brazil?color=green)](https://cran.r-project.org/package=covid19brazil)
-
-[![](http://cranlogs.r-pkg.org/badges/last-month/covid19brazil?color=blue)](https://cran.r-project.org/package=covid19brazil)
-
-# Installation
-
-[![](http://cranlogs.r-pkg.org/badges/grand-total/covid19italy?color=green)](https://cran.r-project.org/package=covid19italy)
-
-[![](http://cranlogs.r-pkg.org/badges/last-month/covid19italy?color=green)](https://cran.r-project.org/package=covid19italy)
+ &#10;[![](http://cranlogs.r-pkg.org/badges/grand-total/covid19brazil?color=blue)](https://cran.r-project.org/package=covid19brazil)
+&#10;[![](http://cranlogs.r-pkg.org/badges/last-month/covid19brazil?color=green)](https://cran.r-project.org/package=covid19brazil)
+&#10;[![](http://cranlogs.r-pkg.org/badges/last-month/covid19brazil?color=blue)](https://cran.r-project.org/package=covid19brazil)
+&#10;# Installation
+&#10;[![](http://cranlogs.r-pkg.org/badges/grand-total/covid19italy?color=green)](https://cran.r-project.org/package=covid19italy)
+&#10;[![](http://cranlogs.r-pkg.org/badges/last-month/covid19italy?color=green)](https://cran.r-project.org/package=covid19italy)
 -->
 
 [^1]: Non-members are represented by the control group, ie, Bolivia,

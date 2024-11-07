@@ -19,7 +19,6 @@ Description: A system for creating the bilateral trade flow between a country
     Yotov, Piermartini, Monteiro and Larch <https://vi.unctad.org/tpa/web/docs/vol2/book.pdf>.
 License: MIT + file LICENSE
 Encoding: UTF-8
-Language: English
 LazyData: true
 LazyDataCompression: xz
 Depends: R (>= 3.5.0)
